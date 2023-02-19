@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+.headerTitle{
+    font-size: 2.5rem;
+}
+
+.headerText{
+    font-size: 1.5rem;
+}
+
+header{
+    background-color: #e9dddd;
+    width: 100%; 
+    padding: 1rem;
+}
+
+nav{
+    background-color: #624141;
+}
+
+nav ul{
+    display: flex;
+    padding-left: 1rem;
+    list-style: none;
+}
+
+nav ul li{
+    padding: 0.5rem 1rem;
+    /* display: flex; */
+}
+
+nav ul li a{
+    color: rgb(185, 167, 167);
+    text-decoration: none; /*底線消除*/
+    transition: all 0.25s ease;
+}
+
+nav ul li a:hover{
+    color: white;
+    /* background-color: orange; */
+}
+
+main{
+    width: 100%;
+    display: flex;
+}
+
+section.left, section.right{
+    padding: 1.5rem;
+}
+
+section.right h4{
+    font-size: 1.25rem;
+    text-align: center;
+}
+
+.active{
+    color: white;
+}
+
+section.right{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section.right p{
+    margin: 1rem 0rem;
+}
+
